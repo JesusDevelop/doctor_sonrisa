@@ -1,0 +1,145 @@
+
+body{
+    background-image: url(../images/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    margin: 0;
+    position: relative;
+    
+    
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Impact','San-serif' ;
+    color: #002b28;
+}
+textarea { 
+    
+    width: 300px; 
+    height: 150px; 
+}
+
+
+.nav{
+ display: flex;
+justify-content: flex-end;
+background-color:#55dfd8 ;
+padding: 10px;
+border-radius: 30px;
+font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+.nav tr td a{
+    margin-right: 5px;
+    padding: 10px;
+    font-weight: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.nav tr td a:hover{
+    background-color:azure;
+    opacity: 0.9;
+}
+.logo-nav h2{
+    display: inline;
+}
+.logo-img{
+    width: 100px;
+    border-radius: 50px;
+}
+.principal{
+   align-self: center;
+   margin-top: 15px;
+   height: 27em;
+}
+.descripcion_inicio{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.titulo_servicios h1{
+    margin-left: 2em;
+}
+.titulo_servicios h3{
+    margin-left: 2em;
+}
+.descripcion_servicios{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+.precio{
+    color: #2597f4;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.titulo_ini{
+    text-align: center;
+}
+.subtitulo_ini{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.parrafos_servicios{
+    margin: 0 auto;
+}
+.parrafos{
+    text-justify: distribute-all-lines;
+    min-height: 18em;
+    max-width: 50%;
+    margin: 0 auto;
+    font-weight: bold;
+    
+}
+.formulario{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 1em;
+
+}
+.logo1{
+    text-align: center;
+}
+
+
+.botones{
+    
+    padding: 10px;
+    margin: 0 5px;
+    background: none;
+    background-color:#55dfd8 ;
+    font-weight: bold;
+    color: azure;
+    border-radius: 10px ;
+    border: 0;
+}
+.botones:hover{
+    background: none;
+    border: solid 1px #55dfd8;
+    color: inherit;
+    font-weight: bold;
+
+}
+
+/*Footer*/
+.footer{
+    position:absolute;
+    width:100%;
+    background:#120052;
+}
+.footer section ul li{
+    list-style: none;
+    display: inline;
+}
+.footer .nav-list a{
+    color: aliceblue;
+    font-weight: bold;
+    margin-left: 20px;
+
+}

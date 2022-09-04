@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Sonrisa</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <table border="0" width="100%" heigth="100%">
+        <tr class="fila_navegacion">
+            <td>
+                <a class="logo-nav"href="index.html">
+                    <img class="logo-img" src="images/logo1.png" alt="">
+                    <h2>Doctor Sonrisa</h2>
+                </a>
+            <tr>
+                <td>
+                    <table  class="nav" border="0">
+                        <tr>
+                            <td>
+                                <a href="index.html">INICIO</a>
+                            </td>
+                            <td>
+                                <a href="servicios.html">SERVICIOS</a>  
+                            </td>
+                            <td>
+                                <a href="contacto.html">CONTACTO</a>
+                            </td>
+                            <td>
+                                <a href="login.html">LOGIN</a>
+                            </td>
+                        </tr>
+                
+                    </table>
+                </td>
+                
+
+            </tr>
+                    
+            </td>
+        </tr>
+        
+    <tr>
+        <td>
+            <table class= "principal" border="0" width="100%">
+                <tr>
+                    
+                 <td width="40%">
+                    <table border="0" class="descripcion_inicio">
+                        <tr>
+                            <td>
+                                <form action="" class="formulario" method="post" id="login_paciente">
+                                    <label for="usuario_paciente">Usuario:</label><br>
+                                    <input type="text" id="usuario_paciente" name="usuario_paciente" required>
+                                </BR>
+                                    <label for="contrasena_paciente">Contraseña:</label><br>
+                                    <input type="password" id="contrasena_paciente" name="contrasena_paciente" required>
+                                </BR>
+                                <tr>
+                                    <td colspan="5" align="right">
+                                      <input class="botones" type="button" value="Limpiar" onclick=" document.getElementById('login_paciente').reset();">
+                                      <input class="botones" type="button"  value="Enviar" onclick="document.getElementById('login_paciente').submit();">
+                                    </td>
+                                  </tr></form>
+                            </td>
+                        </tr>
+                    </table>
+                    
+                 </td>
+                </tr>
+
+                
+            
+             </table>
+
+
+    </table>
+    <footer class="footer">
+        <section class="seccion_footer">
+            <ul>
+                <li class="nav-list"><a href="">Email: doctor_sonrisas@gmail.com</li>
+                <li class="nav-list"><a href="https://api.whatsapp.com/send/?phone=%2B5491128151685&text&type=phone_number&app_absent=0">Telefono: 1157963487</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
