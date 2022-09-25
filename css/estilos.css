@@ -10,14 +10,15 @@ body{
     
 }
 
-h1{
-    font-family: 'Trebuchet MS', 'Impact','San-serif' ;
-    color: #002b28;
+h1, h2{
+    font-family: 'Fredoka One', cursive;
+    color: #001b5a;
 }
 textarea { 
     
     width: 300px; 
-    height: 150px; 
+    height: 100px;
+    border: #2597f4 1px solid;
 }
 
 
@@ -26,7 +27,8 @@ textarea {
 justify-content: flex-end;
 background-color:#55dfd8 ;
 padding: 10px;
-border-radius: 30px;
+border-radius: 10px;
+font-family: 'Fredoka One', cursive;
 font-weight: bold;
 }
 a{
@@ -44,17 +46,25 @@ a{
     background-color:azure;
     opacity: 0.9;
 }
+.logo-nav{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
 .logo-nav h2{
     display: inline;
+    margin-left: 10px;
+    letter-spacing: 5px;
+
 }
 .logo-img{
-    width: 100px;
+    width: 60px;
     border-radius: 50px;
 }
 .principal{
    align-self: center;
    margin-top: 15px;
-   height: 27em;
+   height: 29em;
 }
 .descripcion_inicio{
     background-color: rgb(255, 255, 255);
@@ -96,11 +106,24 @@ a{
     
 }
 .formulario{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
     font-size: 14px;
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 1em;
+}
+
+.texto-form{
+    margin: 0 auto;
+}
+.casilla-form{
+    width: 80%;
+    height: 15px;
+    border: #2597f4 1px solid;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 3px 0;
 
 }
 .logo1{
@@ -109,19 +132,18 @@ a{
 
 
 .botones{
-    
     padding: 10px;
-    margin: 0 5px;
+    margin: 5px;
     background: none;
     background-color:#55dfd8 ;
     font-weight: bold;
     color: azure;
     border-radius: 10px ;
-    border: 0;
+    border:#55dfd8 1px solid;
 }
 .botones:hover{
     background: none;
-    border: solid 1px #55dfd8;
+    border:#55dfd8 1px solid;
     color: inherit;
     font-weight: bold;
 
@@ -129,9 +151,17 @@ a{
 
 /*Footer*/
 .footer{
-    position:absolute;
+    position:relative;
+    bottom: 0;
+    left: 0;
     width:100%;
     background:#120052;
+    
+}
+
+.footer section{
+    display: flex;
+    justify-content: center;
 }
 .footer section ul li{
     list-style: none;
