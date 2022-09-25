@@ -64,7 +64,7 @@ justify-content: center;
 .principal{
    align-self: center;
    margin-top: 15px;
-   height: 29em;
+   height: 28.8em;
 }
 .descripcion_inicio{
     background-color: rgb(255, 255, 255);
@@ -98,11 +98,13 @@ justify-content: center;
     margin: 0 auto;
 }
 .parrafos{
+    font-family: 'Merriweather Sans', sans-serif;
     text-justify: distribute-all-lines;
     min-height: 18em;
-    max-width: 50%;
+    max-width: 60%;
     margin: 0 auto;
-    font-weight: bold;
+    padding: 5px;
+
     
 }
 .formulario{
@@ -169,7 +171,8 @@ justify-content: center;
 }
 .footer .nav-list a{
     color: aliceblue;
-    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+
     margin-left: 20px;
 
 }
